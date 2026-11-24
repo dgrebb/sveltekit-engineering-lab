@@ -1,0 +1,12 @@
+[
+	{
+		"id": "c1",
+		"name": "Code Review",
+		"description": "Review proposed code changes."
+	},
+	{
+		"id": "c2",
+		"name": "Test Generation",
+		"description": "Generate automated tests."
+	}
+]

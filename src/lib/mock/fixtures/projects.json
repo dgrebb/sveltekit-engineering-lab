@@ -1,0 +1,17 @@
+[
+	{
+		"id": "p1",
+		"name": "control-plane",
+		"status": "healthy"
+	},
+	{
+		"id": "p2",
+		"name": "agent-runtime",
+		"status": "degraded"
+	},
+	{
+		"id": "p3",
+		"name": "tool-gateway",
+		"status": "offline"
+	}
+]

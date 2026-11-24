@@ -1,0 +1,164 @@
+[
+	{
+		"id": "e1",
+		"type": "run.started",
+		"actor": "a2",
+		"timestamp": "2026-01-01T12:00:00Z"
+	},
+	{
+		"id": "e2",
+		"type": "approval.requested",
+		"actor": "a1",
+		"timestamp": "2026-01-01T12:01:00Z"
+	},
+	{
+		"id": "e3",
+		"type": "run.progress",
+		"actor": "a2",
+		"timestamp": "2026-01-01T12:02:00Z"
+	},
+	{
+		"id": "e4",
+		"type": "policy.evaluated",
+		"actor": "system",
+		"timestamp": "2026-01-01T12:03:00Z"
+	},
+	{
+		"id": "e5",
+		"type": "approval.approved",
+		"actor": "a1",
+		"timestamp": "2026-01-01T12:04:00Z"
+	},
+	{
+		"id": "e6",
+		"type": "run.completed",
+		"actor": "a2",
+		"timestamp": "2026-01-01T12:05:00Z"
+	},
+	{
+		"id": "e7",
+		"type": "agent.enabled",
+		"actor": "system",
+		"timestamp": "2026-01-01T12:06:00Z"
+	},
+	{
+		"id": "e8",
+		"type": "run.started",
+		"actor": "a1",
+		"timestamp": "2026-01-01T12:07:00Z"
+	},
+	{
+		"id": "e9",
+		"type": "readiness.checked",
+		"actor": "system",
+		"timestamp": "2026-01-01T12:08:00Z"
+	},
+	{
+		"id": "e10",
+		"type": "run.failed",
+		"actor": "a1",
+		"timestamp": "2026-01-01T12:09:00Z"
+	},
+	{
+		"id": "e11",
+		"type": "agent.disabled",
+		"actor": "system",
+		"timestamp": "2026-01-01T12:10:00Z"
+	},
+	{
+		"id": "e12",
+		"type": "approval.rejected",
+		"actor": "a3",
+		"timestamp": "2026-01-01T12:11:00Z"
+	},
+	{
+		"id": "e13",
+		"type": "run.started",
+		"actor": "a2",
+		"timestamp": "2026-01-01T12:12:00Z"
+	},
+	{
+		"id": "e14",
+		"type": "metric.recorded",
+		"actor": "system",
+		"timestamp": "2026-01-01T12:13:00Z"
+	},
+	{
+		"id": "e15",
+		"type": "capability.listed",
+		"actor": "system",
+		"timestamp": "2026-01-01T12:14:00Z"
+	},
+	{
+		"id": "e16",
+		"type": "run.progress",
+		"actor": "a2",
+		"timestamp": "2026-01-01T12:15:00Z"
+	},
+	{
+		"id": "e17",
+		"type": "approval.requested",
+		"actor": "a1",
+		"timestamp": "2026-01-01T12:16:00Z"
+	},
+	{
+		"id": "e18",
+		"type": "project.status_changed",
+		"actor": "system",
+		"timestamp": "2026-01-01T12:17:00Z"
+	},
+	{
+		"id": "e19",
+		"type": "run.completed",
+		"actor": "a2",
+		"timestamp": "2026-01-01T12:18:00Z"
+	},
+	{
+		"id": "e20",
+		"type": "policy.updated",
+		"actor": "system",
+		"timestamp": "2026-01-01T12:19:00Z"
+	},
+	{
+		"id": "e21",
+		"type": "run.started",
+		"actor": "a3",
+		"timestamp": "2026-01-01T12:20:00Z"
+	},
+	{
+		"id": "e22",
+		"type": "approval.approved",
+		"actor": "a1",
+		"timestamp": "2026-01-01T12:21:00Z"
+	},
+	{
+		"id": "e23",
+		"type": "run.progress",
+		"actor": "a3",
+		"timestamp": "2026-01-01T12:22:00Z"
+	},
+	{
+		"id": "e24",
+		"type": "readiness.checked",
+		"actor": "system",
+		"timestamp": "2026-01-01T12:23:00Z"
+	},
+	{
+		"id": "e25",
+		"type": "run.completed",
+		"actor": "a3",
+		"timestamp": "2026-01-01T12:24:00Z"
+	},
+	{
+		"id": "e26",
+		"type": "metric.recorded",
+		"actor": "system",
+		"timestamp": "2026-01-01T12:25:00Z"
+	},
+	{
+		"id": "e27",
+		"type": "agent.enabled",
+		"actor": "system",
+		"timestamp": "2026-01-01T12:26:00Z"
+	}
+]
