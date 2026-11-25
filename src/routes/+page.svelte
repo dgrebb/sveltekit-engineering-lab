@@ -7,7 +7,7 @@
 <DocsShell {content} layout="page" pattern>
 	<Hero
 		title={site.title}
-		description="An interactive documentation lab for exploring SvelteKit remote functions through a lightweight AI Eng control-plane theme."
+		description="An interactive documentation lab for exploring SvelteKit remote functions with agentic engineering entities and patterns."
 	>
 		{#snippet actions()}
 			<Action href="/docs/getting-started">Get started</Action>

@@ -41,7 +41,7 @@ Return all projects from the fixture store via a remote query.
 
 ## Scenario
 
-An operator opens the control plane and needs the current project list.
+An operator needs the current project list.
 
 ## Provided Data
 

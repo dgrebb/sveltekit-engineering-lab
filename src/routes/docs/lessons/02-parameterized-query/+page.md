@@ -48,7 +48,7 @@ Fixture source: `src/lib/mock/fixtures/projects.json`.
 ## Expected Result
 
 ```json
-{ "id": "p1", "name": "control-plane", "status": "healthy" }
+{ "id": "p1", "name": "engineering-lab", "status": "healthy" }
 ```
 
 ## Exercise

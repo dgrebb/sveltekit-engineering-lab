@@ -1,0 +1,33 @@
+---
+description: Branding — Agentic Engineering, not Control Plane
+alwaysApply: true
+---
+
+# Branding
+
+This lab’s brand is **Agentic Engineering** (site title: **Agentic Engineering Lab**).
+
+## Do
+
+- Use “Agentic Engineering” / “Agentic Engineering Lab” when a product name is needed
+- Describe the domain plainly: projects, agents, runs, approvals, fixtures, remote functions
+- Keep copy open-ended — the theme is a light backdrop for teaching SvelteKit patterns
+
+## Don’t
+
+- Never use “Control Plane”, “control plane”, or “control-plane” in branding, titles, docs, UI copy, package metadata, or comments
+- Don’t lean on marketing jargon (“orchestration platform”, “AI Eng control plane”, etc.)
+- Don’t cram “agentic” into every sentence, fixture name, or lesson scenario
+
+## Examples
+
+```text
+❌ Control Plane Lab
+✅ Agentic Engineering Lab
+
+❌ An operator opens the control plane…
+✅ An operator needs the current project list…
+
+❌ themed as an AI Eng control plane
+✅ teaching lab with agentic engineering entities (projects, agents, runs)
+```

@@ -37,7 +37,7 @@ Retrieve a subset of events with limit and offset.
 
 ## Scenario
 
-An audit view pages through control-plane events.
+An audit view pages through events.
 
 ## Provided Data
 

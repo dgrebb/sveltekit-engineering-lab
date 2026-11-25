@@ -1,6 +1,6 @@
-# Control Plane Lab
+# Agentic Engineering Lab
 
-Interactive, documentation-driven learning environment for exploring **SvelteKit remote functions**. The thematic domain is an AI Engineering control plane (projects, agents, runs, approvals), but this is educational scaffolding — not a real orchestration system.
+Interactive, documentation-driven learning environment for exploring **SvelteKit remote functions**. Domain fixtures cover agentic engineering entities (projects, agents, runs, approvals) — educational scaffolding, not a real product.
 
 ## Technology stack
 
@@ -65,7 +65,7 @@ Fixtures live under `src/lib/mock/fixtures/` (not `server/`) so Markdown pages c
 
 ```mermaid
 flowchart LR
-  accTitle: Control Plane Lab architecture
+  accTitle: Agentic Engineering Lab architecture
   accDescr: Markdown lessons embed Svelte examples. Examples call remote functions that either use the fixture store directly or call the mock REST API. Both paths share session-scoped mutable state seeded from JSON fixtures.
   MD["Markdown lessons"] --> EX["Svelte examples"]
   EX --> RF["Remote functions"]

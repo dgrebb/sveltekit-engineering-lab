@@ -1,4 +1,4 @@
-# Agent guidance — Control Plane Lab
+# Agent guidance — Agentic Engineering Lab
 
 Persistent instructions for coding agents working in this repository.
 

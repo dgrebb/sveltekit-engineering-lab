@@ -9,10 +9,9 @@ order: 1
 	import { Callout } from 'svelte-docsmith';
 </script>
 
-**Control Plane Lab** is an interactive, documentation-driven environment for exploring
-SvelteKit **remote functions**. The thematic domain is an AI Engineering control plane —
-projects, agents, runs, approvals — but the product is educational scaffolding, not a real
-orchestration system.
+**Agentic Engineering Lab** is an interactive, documentation-driven environment for exploring
+SvelteKit **remote functions**. Fixtures cover projects, agents, runs, and approvals — enough
+domain texture to practice patterns, not a product pitch.
 
 ## What you will learn
 
@@ -43,7 +42,7 @@ Build the infrastructure that makes learning possible. Do not automate the learn
 
 ```mermaid
 flowchart LR
-  accTitle: Control Plane Lab data flow
+  accTitle: Agentic Engineering Lab data flow
   accDescr: Markdown lessons embed Svelte examples that call remote functions. Remote functions use either the fixture store or the mock REST API. Both paths share session-scoped fixture state.
   MD["Markdown lessons"] --> EX["Svelte examples"]
   EX --> RF["Remote functions"]
