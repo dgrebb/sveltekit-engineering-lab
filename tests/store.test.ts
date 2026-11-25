@@ -24,7 +24,7 @@ describe('fixture loading', () => {
 	it('loads seed projects', () => {
 		const projects = list(A, 'projects');
 		expect(projects).toHaveLength(3);
-		expect(projects[0]).toMatchObject({ id: 'p1', name: 'control-plane' });
+		expect(projects[0]).toMatchObject({ id: 'p1', name: 'engineering-lab' });
 	});
 
 	it('exposes immutable seeds that are not the live array', () => {
@@ -162,7 +162,7 @@ describe('session isolation', () => {
 	it('returns copies so callers cannot mutate store state', () => {
 		const projects = list(A, 'projects');
 		projects[0]!.name = 'mutated';
-		expect(get(A, 'projects', 'p1').name).toBe('control-plane');
+		expect(get(A, 'projects', 'p1').name).toBe('engineering-lab');
 	});
 });
 

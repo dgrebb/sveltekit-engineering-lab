@@ -6,7 +6,7 @@ import { defineConfig } from 'vitest/config';
 import { docsmith } from 'svelte-docsmith/vite';
 import { customFields } from './src/lib/frontmatter.ts';
 
-const title = 'Control Plane Lab';
+const title = 'Agentic Engineering Lab';
 
 export default defineConfig({
 	plugins: [
@@ -15,7 +15,7 @@ export default defineConfig({
 			site: {
 				title,
 				description:
-					'Interactive documentation lab for exploring SvelteKit remote functions through an AI Eng control-plane theme.',
+					'Interactive documentation lab for exploring SvelteKit remote functions with agentic engineering entities and patterns.',
 				nav: [
 					{ label: 'Docs', href: '/docs/introduction' },
 					{ label: 'Lessons', href: '/docs/lessons/01-basic-query' },
@@ -23,7 +23,7 @@ export default defineConfig({
 					{ label: 'Fixtures', href: '/docs/fixture-reference' }
 				],
 				footer: {
-					copyright: `© ${new Date().getFullYear()} Control Plane Lab`
+					copyright: `© ${new Date().getFullYear()} Agentic Engineering Lab`
 				}
 			},
 			schema: customFields,
@@ -62,4 +62,3 @@ export default defineConfig({
 		environment: 'node'
 	}
 });
-

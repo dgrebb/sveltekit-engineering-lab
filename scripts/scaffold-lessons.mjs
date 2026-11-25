@@ -19,7 +19,7 @@ const lessons = [
 		fixtures: ['projects'],
 		topics: ['remote-functions', 'server-state'],
 		objective: 'Return all projects from the fixture store via a remote query.',
-		scenario: 'An operator opens the control plane and needs the current project list.',
+		scenario: 'An operator needs the current project list.',
 		exercise: 'Implement a remote `query` that lists every project and render the results.',
 		expected: 'The three seed projects (`p1`, `p2`, `p3`) with their statuses.',
 		refs: [
@@ -41,7 +41,7 @@ const lessons = [
 		objective: 'Retrieve project `p1` using a parameterized remote query.',
 		scenario: 'An operator drills into one project from the fleet overview.',
 		exercise: 'Accept a project id argument, validate it, and return that project.',
-		expected: '{ "id": "p1", "name": "control-plane", "status": "healthy" }',
+		expected: '{ "id": "p1", "name": "engineering-lab", "status": "healthy" }',
 		refs: ['[Remote functions — query](https://svelte.dev/docs/kit/remote-functions#query)']
 	},
 	{
@@ -260,7 +260,7 @@ const lessons = [
 		fixtures: ['events'],
 		topics: ['pagination', 'filtering'],
 		objective: 'Retrieve a subset of events with limit and offset.',
-		scenario: 'An audit view pages through control-plane events.',
+		scenario: 'An audit view pages through events.',
 		exercise: 'Support limit/offset against the events collection.',
 		expected: 'A slice of the 27 seed events matching the requested window.',
 		refs: ['[Mock API](/docs/api-reference)']
@@ -353,7 +353,7 @@ const lessons = [
 		primitives: ['query', 'command', 'form'],
 		fixtures: ['projects', 'agents', 'runs', 'approvals'],
 		topics: ['composition'],
-		objective: 'Compose queries, commands, and forms into a small control-plane panel.',
+		objective: 'Compose queries, commands, and forms into a small operator panel.',
 		scenario: 'An operator reviews projects, starts a run, and resolves an approval.',
 		exercise: 'Combine primitives from earlier lessons without new abstractions.',
 		expected: 'A coherent mini-panel demonstrating multiple remote-function patterns.',

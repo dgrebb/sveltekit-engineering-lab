@@ -96,7 +96,7 @@ curl -s -c "$JAR" -b "$JAR" -X POST "$ORIGIN/api/mock/reset" \
 
 ```json
 [
-  { "id": "p1", "name": "control-plane", "status": "healthy" },
+  { "id": "p1", "name": "engineering-lab", "status": "healthy" },
   { "id": "p2", "name": "agent-runtime", "status": "degraded" },
   { "id": "p3", "name": "tool-gateway", "status": "offline" }
 ]
@@ -105,7 +105,7 @@ curl -s -c "$JAR" -b "$JAR" -X POST "$ORIGIN/api/mock/reset" \
 ### GET `/api/mock/projects/p1`
 
 ```json
-{ "id": "p1", "name": "control-plane", "status": "healthy" }
+{ "id": "p1", "name": "engineering-lab", "status": "healthy" }
 ```
 
 ### GET `/api/mock/projects/p99` — 404

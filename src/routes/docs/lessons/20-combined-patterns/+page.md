@@ -40,7 +40,7 @@ topics:
 
 ## Objective
 
-Compose queries, commands, and forms into a small control-plane panel.
+Compose queries, commands, and forms into a small operator panel.
 
 ## Scenario
 
