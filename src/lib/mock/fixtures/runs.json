@@ -1,0 +1,16 @@
+[
+	{
+		"id": "r1",
+		"agentId": "a2",
+		"projectId": "p1",
+		"status": "running",
+		"progress": 40
+	},
+	{
+		"id": "r2",
+		"agentId": "a1",
+		"projectId": "p2",
+		"status": "completed",
+		"progress": 100
+	}
+]

@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+/* The whole Svelte DocSmith style contract in one import: it makes Tailwind scan
+ * the package, registers the design tokens for light and dark, and pulls in the
+ * typography and animation plugins. */
+@import 'svelte-docsmith/theme.css';
+
+/* The theme itself is chosen in vite.config.ts with docsmith({ theme }).
+ * Redefine any token here and it wins over the theme, e.g.
+ *   :root { --primary: oklch(0.55 0.2 265); } */

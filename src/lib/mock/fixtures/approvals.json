@@ -1,0 +1,14 @@
+[
+	{
+		"id": "ap1",
+		"action": "Deploy to production",
+		"projectId": "p1",
+		"status": "pending"
+	},
+	{
+		"id": "ap2",
+		"action": "Merge pull request",
+		"projectId": "p2",
+		"status": "approved"
+	}
+]

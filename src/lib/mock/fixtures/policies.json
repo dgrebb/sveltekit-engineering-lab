@@ -1,0 +1,8 @@
+[
+	{
+		"id": "policy1",
+		"requireApproval": true,
+		"allowProduction": false,
+		"maxConcurrentRuns": 3
+	}
+]

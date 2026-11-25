@@ -1,0 +1,20 @@
+[
+	{
+		"id": "readiness1",
+		"projectId": "p1",
+		"checks": [
+			{
+				"name": "Tests",
+				"passed": true
+			},
+			{
+				"name": "Security",
+				"passed": false
+			},
+			{
+				"name": "Approval",
+				"passed": true
+			}
+		]
+	}
+]

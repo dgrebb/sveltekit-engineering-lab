@@ -1,0 +1,11 @@
+{
+	"extends": "$app/tsconfig",
+	"compilerOptions": {
+		"sourceMap": true,
+		"strict": true,
+		"moduleResolution": "bundler",
+		"types": ["$app/types", "vitest/globals", "node"]
+	},
+	"include": ["src/**/*.ts", "src/**/*.svelte", "src/**/*.md", "tests/**/*.ts", "vite.config.ts"],
+	"exclude": ["node_modules", "build", ".svelte-kit"]
+}
