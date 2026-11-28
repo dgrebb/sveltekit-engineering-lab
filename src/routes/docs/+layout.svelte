@@ -9,7 +9,7 @@
 <DocsShell
 	{content}
 	search={() => import('svelte-docsmith/search').then((m) => m.docs)}
-	pattern
+	pattern={false}
 	copyPage
 >
 	{@render children()}

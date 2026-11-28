@@ -2,16 +2,19 @@ import adapter from '@sveltejs/adapter-node';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import tailwindcss from '@tailwindcss/vite';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vitest/config';
 import { docsmith } from 'svelte-docsmith/vite';
 import { customFields } from './src/lib/frontmatter.ts';
 
 const title = 'Agentic Engineering Lab';
+const root = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
 	plugins: [
 		docsmith({
-			theme: 'graphite',
+			theme: './src/theme.css',
 			site: {
 				title,
 				description:
@@ -51,6 +54,12 @@ export default defineConfig({
 	// published fallbacks and breaks the client. Keep the package outside the
 	// optimizer so the plugin can intercept. (Compatibility note: required for
 	// DocSmith 0.29 + Vite 8 dependency optimization.)
+	resolve: {
+		// Keep ```mermaid fences; swap DocSmith's viewer for zoom/fullscreen.
+		alias: {
+			'svelte-docsmith/mermaid': path.resolve(root, 'src/lib/components/lab/Mermaid.svelte')
+		}
+	},
 	optimizeDeps: {
 		exclude: ['svelte-docsmith']
 	},

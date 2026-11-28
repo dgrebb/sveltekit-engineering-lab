@@ -41,7 +41,7 @@ Build the infrastructure that makes learning possible. Do not automate the learn
 ## Architecture at a glance
 
 ```mermaid
-flowchart LR
+flowchart TB
   accTitle: Agentic Engineering Lab data flow
   accDescr: Markdown lessons embed Svelte examples that call remote functions. Remote functions use either the fixture store or the mock REST API. Both paths share session-scoped fixture state.
   MD["Markdown lessons"] --> EX["Svelte examples"]

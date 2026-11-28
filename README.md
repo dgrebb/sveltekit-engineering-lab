@@ -64,7 +64,7 @@ Fixtures live under `src/lib/mock/fixtures/` (not `server/`) so Markdown pages c
 ## Architecture
 
 ```mermaid
-flowchart LR
+flowchart TB
   accTitle: Agentic Engineering Lab architecture
   accDescr: Markdown lessons embed Svelte examples. Examples call remote functions that either use the fixture store directly or call the mock REST API. Both paths share session-scoped mutable state seeded from JSON fixtures.
   MD["Markdown lessons"] --> EX["Svelte examples"]
