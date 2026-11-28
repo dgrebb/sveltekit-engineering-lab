@@ -11,3 +11,4 @@ vite.config.ts.timestamp-*
 *.log
 .coverage
 dist
+.vscode/settings.json
